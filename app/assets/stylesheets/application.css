@@ -22,3 +22,7 @@
  .navbar-brand .title {
    color: blue;
  }
+ .footer {
+   background-color: blue;
+   height: 50px;
+ }
