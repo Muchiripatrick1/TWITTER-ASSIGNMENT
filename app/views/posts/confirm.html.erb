@@ -1,0 +1,7 @@
+<h3>Send with the following contents.</h3>
+<%= form_with(model: @post, url: posts_path, local: true) do |form| %>
+  <%= form.hidden_field :content %>
+  <p>content:<%= @post.content %></p>
+  <%= form.submit  "confirm" %>
+  <%= link_to 'Back', new_post_path %>
+<% end %>
